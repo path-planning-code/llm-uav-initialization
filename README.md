@@ -1,6 +1,8 @@
-# LLM-Enhanced UAV Path Planning Initialization
+# LLM-Enhanced Initial Waypoint Generation for 3D Multi-UAV Path Planning
 
-This project presents an implementation of large language model (LLM) powered intelligent initial population generation for 3D multi-UAV path planning, accessed via the OpenRouter API. It includes complete prompt templates, LLM invocation encapsulation, and response parsing logic, and can be directly integrated into related research or engineering projects.
+> This is an anonymous repository for double-blind peer review. The official version with full author information will be released upon paper acceptance.
+
+This repository provides the reference implementation of the LLM-enhanced terrain-aware initial population generation method described in Section IV-A of the submitted paper. The pipeline is accessed via the OpenRouter API, with complete prompt templates, LLM invocation encapsulation, and response parsing logic, which can be directly integrated into related research or engineering projects.
 
 ## Features
 - Support for multiple LLM backends (GPT-4o, Claude, Llama, etc.) via OpenRouter
@@ -13,13 +15,11 @@ This project presents an implementation of large language model (LLM) powered in
 - `openai>=1.0.0`
 - `numpy`
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
-
 ## Quick Start
 1. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 2. Configure your OpenRouter API key in config.py.
 3. Run the example to test the initialization pipeline:
+    ```bash
    python example.py
