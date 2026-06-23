@@ -16,3 +16,10 @@ This project presents an implementation of large language model (LLM) powered in
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+## Quick Start
+1. Install dependencies:
+   pip install -r requirements.txt
+2. Configure your OpenRouter API key in config.py.
+3. Run the example to test the initialization pipeline:
+   python example.py
